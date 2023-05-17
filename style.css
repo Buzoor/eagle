@@ -274,3 +274,20 @@ footer p {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 800px) {
+
+    ul li a,
+    ul li span {
+        font-size: 16px;
+    }
+
+    ul {
+
+        width: 40%;
+
+        /* margin-top: -2em; */
+
+        margin: -2em auto;
+    }
+}
