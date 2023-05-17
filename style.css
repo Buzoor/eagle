@@ -1,0 +1,263 @@
+html,
+section,
+main,
+div,
+body {
+    font-family: ' poppins';
+    margin: 0%;
+    padding: 0%;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3,
+p {
+    font-family: cursive;
+}
+
+a:hover,
+a:active {
+    border-bottom: 9px solid rgb(240, 238, 238);
+    border-bottom-color: rgb(248, 242, 242);
+    border-radius: 1.5em;
+    font-size: 15px;
+}
+
+.sec1 {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec1 {
+    background-image: url("imgaes/background.jpeg");
+
+}
+
+.sec2 {
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec2 {
+    background-image: linear-gradient(to left,
+            rgba(44, 7, 7, 0.938),
+            white);
+}
+
+main {
+    width: 80%;
+    max-width: 1700px;
+    margin: auto;
+}
+
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 200px;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    background-color: rgba(250, 248, 248, 0.938);
+    height: max-content;
+    border-radius: 1em;
+    padding: 0%;
+    margin-top: 5.5em;
+
+}
+
+ul li {
+    list-style-type: none;
+    /* margin-right: 1em; */
+
+}
+
+ul li a,
+ul li span {
+    text-decoration: none;
+    color: rgb(44, 7, 7);
+    padding: 1em;
+    /* font-family: "Rammetto One"; */
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.spn {
+    /* padding: 2em; */
+    background-color: rgba(44, 7, 7, 0.438);
+    width: max-content;
+    height: 30px;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+
+    color: rgb(243, 238, 238)
+}
+
+.spn span {
+    padding: 1em;
+    padding-top: 1.5em;
+}
+
+
+
+.bannerdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b {
+    width: 100%;
+}
+
+button {
+    border-radius: 1em;
+    border-bottom: 9px solid black;
+    width: 30%;
+    font-size: 16px;
+    font-family: cursive;
+    /* padding: 1em; */
+    color: rgb(248, 242, 242);
+    background-color: rgba(44, 7, 7, 0.438);
+}
+
+
+
+.cent {
+    width: 60%;
+    /* height: 20%; */
+    margin: auto 14%;
+    margin-bottom: 2em;
+    padding: 4em;
+    border: 5px black;
+    background-image: linear-gradient(to top,
+            rgba(44, 7, 7, 0.938),
+            white);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    /* grid-auto-rows: auto; */
+    margin-top: 2em;
+    padding: 2em;
+    background-color: rgba(27, 25, 25, 0.884);
+    border-radius: 2em;
+}
+
+.teamdetails h3 {
+    text-align: center;
+}
+
+
+
+.teamdetails img {
+    width: 20%;
+    border-radius: 50%;
+    margin: auto 39%;
+}
+
+.teamp {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+footer p {
+    text-align: center;
+    padding: 2em;
+    color: rgb(44, 7, 7);
+
+}
+
+@media screen and (max-width: 1300px) {
+    .bannerdiv {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    button {
+
+        font-size: 14px;
+
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 2em;
+        /* grid-auto-rows: auto; */
+
+    }
+
+    .spn {
+
+        width: max-content;
+    }
+
+    /* nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    } */
+    h1 {
+        font-size: xx-large;
+    }
+
+    nav img {
+        width: 150px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    ul {
+
+        width: 60%;
+
+        margin-top: 4em;
+
+    }
+
+
+    ul li a,
+    ul li span {
+        font-size: 20px;
+    }
+}
