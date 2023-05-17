@@ -207,7 +207,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 00px) {
     .bannerdiv {
         /* display: flex; */
         flex-direction: column;
